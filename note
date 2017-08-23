@@ -1,0 +1,10 @@
+database : doit
+
+table : doit_task
+coloumns:
+	title: varchar(20)
+	date: datetime(6) default current timestamp
+	category:varchar(30)
+	description:text(100)
+	status:int(1)
+	remain:datetime(6)
